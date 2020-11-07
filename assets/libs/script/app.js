@@ -20,7 +20,7 @@ function renderData(data){
     document.getElementById('postsContainer').appendChild(div)
 }
 document.addEventListener('DOMContentLoaded',()=>{
-    x = 5
+    x = 10
     while(x>0){
         getPosts()
         x--
