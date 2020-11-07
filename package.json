@@ -1,0 +1,14 @@
+{
+  "name": "just-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build src/main.css -o assets/libs/style/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
