@@ -1,6 +1,9 @@
 module.exports = {
   future: {},
-  purge: [],
+  purge: {
+    enabled: true,
+    content: ['./views/*.html'],
+  },
   theme: {
     extend: {},
     fontFamily: {
